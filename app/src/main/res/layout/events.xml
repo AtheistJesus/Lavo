@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="lavo.example.kyleavalani.first.MainActivity">
+    <!--
+    <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Outdoor Events"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indoor Events"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Events"
+                />
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+        </LinearLayout>
+    </TabHost>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/eventnamme" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/map1"
+        android:id="@+id/imageView2"
+        android:background="@null"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/calend"
+        android:layout_below="@+id/location"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView3" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date1"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time1"
+        android:layout_alignTop="@+id/date1"
+        android:layout_toRightOf="@+id/imageButton" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_below="@+id/imageView3"
+        android:layout_toLeftOf="@+id/time"
+        android:layout_toStartOf="@+id/time" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mapbutton"
+        android:id="@+id/map1"
+        android:background="@null"
+        android:layout_below="@+id/description"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sssave"
+        android:background="@null"
+        android:id="@+id/imageButton"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignBottom="@+id/map1"
+        android:layout_toRightOf="@+id/map1"
+        android:layout_alignTop="@+id/map1" />
+-->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

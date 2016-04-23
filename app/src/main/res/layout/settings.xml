@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:src="@drawable/mainlogo"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="LAVO (Location, Awareness, Volunteer, Opportunities) was built by a group of young entrepeneurs seeking to better their local community. To learn more, click bellow."
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cont1"
+        android:id="@+id/contactus"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:paddingTop="10dp"
+        />
+
+
+</LinearLayout>
+
